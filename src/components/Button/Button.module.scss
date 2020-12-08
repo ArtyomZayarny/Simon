@@ -1,0 +1,26 @@
+
+.btn {
+    width: 100px;
+    height:100px;
+    opacity:0.5 ;
+    &:hover {
+        cursor: pointer;
+    }
+    &.green {
+        background-color: green;
+       
+    }
+    &.blue {
+        background-color: blue;
+    }
+    &.red {
+        background-color: red;
+    }
+    &.yellow {
+        background-color: yellow;
+    }
+    &.play {
+        opacity: 1;
+    }
+    
+}
