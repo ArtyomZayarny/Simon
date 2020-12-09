@@ -3,6 +3,9 @@
     width: 100px;
     height:100px;
     opacity:0.5 ;
+    &:active {
+        opacity: 1;
+    }
     &:hover {
         cursor: pointer;
     }

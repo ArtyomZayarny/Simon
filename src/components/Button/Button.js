@@ -14,10 +14,10 @@ Button.defaultProps = {
     color: 'gray',
     isPlay: false
 }
-export default function Button({ color, handlePlay, isPlay }) {
+export default function Button({ color, getClickedBtnColor, isPlay }) {
 
 
     return (
-        <button onClick={handlePlay} className={`${styles.btn} ${styles[color]} ${isPlay ? styles['play'] : ''}`}></button>
+        <button onClick={() => { getClickedBtnColor(color) }} className={`${styles.btn} ${styles[color]} ${isPlay ? styles['play'] : ''}`}></button>
     )
 }

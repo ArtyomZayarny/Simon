@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Pad from './components/Pad/Pad';
 
 function App() {
 
-  // const []
+  const [start, setStart] = useState(false)
+
+
   return (
     <div className="App">
       <h1>Simon says</h1>
@@ -13,9 +15,9 @@ function App() {
         <option>medium</option>
         <option>hard</option>
       </select></p>
-      <Pad />
-      <button>start game</button>
-    </div>
+      <Pad start={start} />
+      <button onClick={() => { setStart(true) }}> start game</button>
+    </div >
   );
 }
 
