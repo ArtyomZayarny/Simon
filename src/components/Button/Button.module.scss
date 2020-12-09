@@ -3,6 +3,9 @@
     width: 100px;
     height:100px;
     opacity:0.5 ;
+    &:focus {
+        outline: none;
+    }
     &:active {
         opacity: 1;
     }
