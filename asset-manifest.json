@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Simon/static/css/main.88db948e.chunk.css",
+    "main.js": "/Simon/static/js/main.80a8d24b.chunk.js",
+    "main.js.map": "/Simon/static/js/main.80a8d24b.chunk.js.map",
+    "runtime-main.js": "/Simon/static/js/runtime-main.3b857789.js",
+    "runtime-main.js.map": "/Simon/static/js/runtime-main.3b857789.js.map",
+    "static/js/2.1c26bd32.chunk.js": "/Simon/static/js/2.1c26bd32.chunk.js",
+    "static/js/2.1c26bd32.chunk.js.map": "/Simon/static/js/2.1c26bd32.chunk.js.map",
+    "index.html": "/Simon/index.html",
+    "static/css/main.88db948e.chunk.css.map": "/Simon/static/css/main.88db948e.chunk.css.map",
+    "static/js/2.1c26bd32.chunk.js.LICENSE.txt": "/Simon/static/js/2.1c26bd32.chunk.js.LICENSE.txt",
+    "static/media/1.38b1fd45.mp3": "/Simon/static/media/1.38b1fd45.mp3",
+    "static/media/2.24c67b31.mp3": "/Simon/static/media/2.24c67b31.mp3",
+    "static/media/3.6629d159.mp3": "/Simon/static/media/3.6629d159.mp3",
+    "static/media/4.c46b9b8f.mp3": "/Simon/static/media/4.c46b9b8f.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b857789.js",
+    "static/js/2.1c26bd32.chunk.js",
+    "static/css/main.88db948e.chunk.css",
+    "static/js/main.80a8d24b.chunk.js"
+  ]
+}
